@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 0.8em;
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    background-color: rgb(232, 230, 253);
+    font-style: italic;    
+}
+
+header{
+    background-color: #dedaff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+#about h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+}
+
+nav li {
+    font-size: 30px;
+}
+#about {
+    background-color: rgb(220, 220, 255);
+    padding: 2rem;
+    margin-top: 20px;
+    border-top: 5px solid rgb(153, 153, 153 );
+    border-bottom: 5px solid rgb(153, 153, 153);
+}
+
+#articles {
+    background-color: rgb(218, 214, 255);
+    padding: 3rem;
+    font-size: 2rem;
+
+}
+
+p {
+    text-align: justify;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 10px;
+    padding: 20px 20px;
+    
+}
+
+nav {
+    font-size: 20px;
+    padding: 2rem;
+    margin: 10px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-self: center;
+    gap: 50px;
+}
+#content {
+    text-align: center;
+}
+a:link {
+    color:rgb(47, 10, 255);
+}
+a:visited {
+    color: rgb(115, 124, 255);
+}
+a:hover{
+    color: rgb(4, 0, 255);
+}
+a:focus{
+    color: blueviolet;
+}
+a:active{
+    color: rgb(120, 105, 255);
+} 
+#articles li:nth-child(even) {
+    background-color: rgb(236, 235, 255);
+}
+
+h3 {
+    padding: 20px;
+    font-size: 30px;
+}
+footer p{
+    background-color: rgb(188, 183, 255);
+    padding: 1px;
+    text-align: left;
+}
+a.special::after{
+    content: "Важно!";
+    font-size: 20px; 
+    padding: 10px;
+    pointer-events: none;
+    position: absolute;
+    color: blue;
+}
+#about p {
+    color: rgb(0, 0, 0);
+    background-color: rgb(209, 212, 253);
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    flex: 1;
+    text-align: justify;
+    font-size: 2rem;
+    line-height: 1.8;
+}
+footer a {
+    padding: 10px;
+    margin-top: 20px;
+}
+blockquote {
+    background-color: rgb(209, 212, 253);
+    border-left: 5px solid rgb(120, 129, 255);
+    padding: 15px 20px;
+    margin: 20px 0;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+img + p{
+    margin-top: 20px;
+}
+#about .photo{
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+dd{
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+dt{
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#about a{
+    background-color: aqua;
+}
